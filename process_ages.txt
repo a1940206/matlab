@@ -1,0 +1,4 @@
+input        maximum  minimum  average
+10 11 12     12       10       11.0
+1 2 3 4      4        1        2.5
+18 20 22     22       18       20.0
