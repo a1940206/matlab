@@ -1,0 +1,5 @@
+input        output
+Jennifer     JENNIFER
+Joe,SmitH    JOE,SMITH
+adam,lee     ADAM,LEE
+Grace,Hopper GRACE,HOPPER
