@@ -6,7 +6,6 @@ int main(void) {
   int odds[11];
   int evenCount = 0, oddCount = 0;
 
-  // Separate into even and odd arrays
   for (int i = 0; i < 11; i++) {
     if (nums[i] % 2 == 0)
       evens[evenCount++] = nums[i];
