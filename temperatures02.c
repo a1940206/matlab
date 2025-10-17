@@ -19,8 +19,9 @@ int main(void) {
             return 1;
         }
 
-        if (value == -100.0)
+        if (value == -100.0) {
             break;
+        }
 
         if (count == capacity) {
             int new_capacity = capacity * 2;
@@ -30,9 +31,11 @@ int main(void) {
                 free(temps);
                 return 1;
             }
+
             for (int i = 0; i < count; i++) {
                 new_array[i] = temps[i];
             }
+
             free(temps);
             temps = new_array;
             capacity = new_capacity;
@@ -40,6 +43,7 @@ int main(void) {
 
         temps[count++] = value;
     }
+
     for (int i = count - 1; i >= 0; i--) {
         printf("%.1f", temps[i]);
         if (i > 0) printf(" ");
@@ -49,3 +53,4 @@ int main(void) {
     free(temps);
     return 0;
 }
+
