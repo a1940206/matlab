@@ -1,5 +1,0 @@
-input       output
-Tree        eerT
-goodDay     yaDdoog
-abc         cba
-hello       olleh
