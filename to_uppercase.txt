@@ -1,5 +1,0 @@
-input        output
-jennifer     JENNIFER
-joe,smith    JOE,SMITH
-lisa,parker  LISA,PARKER
-tom          TOM
