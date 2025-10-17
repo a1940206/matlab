@@ -17,11 +17,18 @@ int main(void) {
 
     printf("Enter %d temperatures: ", count);
     for (int i = 0; i < count; i++) {
-        scanf("%lf", &temps[i]);
+        if (scanf("%lf", &temps[i]) != 1) {
+            printf("Invalid input.\n");
+            free(temps);
+            return 1;
+        }
     }
+
     for (int i = count - 1; i >= 0; i--) {
         printf("%.1f", temps[i]);
-        if (i > 0) printf(" ");
+        if (i > 0) {
+            printf(" ");
+        }
     }
     printf("\n");
 
