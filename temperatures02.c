@@ -30,7 +30,6 @@ int main(void) {
                 free(temps);
                 return 1;
             }
-            // Copy old data
             for (int i = 0; i < count; i++) {
                 new_array[i] = temps[i];
             }
